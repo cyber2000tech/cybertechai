@@ -80,3 +80,7 @@ The six image files in `assets/client/` were extracted from the client-provided 
 Captions are positioned directly under the images; the larger technical captions are on the respective interior pages. Clicking a technical image opens a full-size version for detailed inspection. The homepage remains structured around Services, Domains, Mission and Contact; adding new application pages later does not require redesigning it.
 
 **Publishing:** This ZIP is a revised release. Upload and commit all updated files including the entire `assets/client/` folder to the existing public GitHub repository `cyber2000tech/cybertechai` on branch `main`. The existing `CNAME`, `robots.txt` and `sitemap.xml` remain intact. Do not remove the custom domain setting.
+
+## Homepage client-image presentation fix (October 2026)
+
+The homepage previews now use responsive proportional media frames, with full-image containment, centered positioning, and inset spacing. The Venn diagram is constrained to fit within its presentation frame. This update changes only `index.html` image dimensions and `assets/styles.css` homepage styles; the source client images and detailed sections stay unchanged.

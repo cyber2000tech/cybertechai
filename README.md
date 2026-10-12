@@ -1,20 +1,13 @@
-# Cyber Tech — Cecil review build
+# Cyber Tech — Cecil updated services slides (V21)
 
-This website was revised from the user-uploaded **Cyber-Tech-Website-v8-Engineering-Interactions-Corrected(1).zip**, with the slides rendered in full from the uploaded **FOR THE WEB PAGE_2(1).pptx**.
+A complete static website ready to upload to GitHub Pages. Use Home, Domains and Contact in the unchanged upper-right menu.
 
-**Public pages**
+## Cecil's newest update
+The six services slides (2–7) from **V3 UPDATED SERVICES FOR THE WEB PAGE.pptx** appear only on the homepage under **Overview of our Teams' Expertise and Experience**. The slides are reproduced as full-slide PNGs in the approved sequence, without cropping or zoom links. The new medical robotics slide is slide 7.
 
-- `index.html`: original homepage introduction (with metaverse correction), combined MISSION AND SERVICES, slides 2–6 vertically under Overview of our Teams' Expertise and Experience, Contact at the bottom.
-- `domains.html`: a single heading "Domains" and all six slides vertically, without links, extra descriptions, or click-to-enlarge controls.
-- `services.html`, `mission.html`: compatibility redirects to the home page's Mission and Services section (no separate menu entries).
+The Domains page remains reachable via the unchanged menu and shows the previously approved domains overview (slide 1), without repeating the services presentation. The homepage's Mission and Services content, contact section, and investment notice are retained.
 
-The header menu contains only Home, Domains, and Contact; the Contact link scrolls to the homepage Contact section.
+## Install
+Extract the ZIP and upload all files and folders, preserving the `assets/` directory, to your GitHub Pages repository. No build step is needed.
 
-**Publishing the approved site**
-
-1. Extract this ZIP.
-2. Upload all its contents, including the `assets/` folder and the `CNAME` file, to the root of the existing GitHub repository `cyber2000tech/cybertechai`.
-3. Commit to the published branch. GitHub Pages will update `https://cybertechai.us/`.
-4. Do not modify the domain or DNS configuration.
-
-**Review before publishing:** Read `CECIL-REVIEW-NOTES.txt`. The slides are rendered as whole images without cropping. For the website copies only, the standalone slide numbers 3–6 were removed and the first slide typo “meta-verse” was corrected to “metaverse”. No website-generated slide numbers or zoom controls are present.
+Review `CECIL-REVIEW-NOTES.txt` for source-slide typos intentionally left intact.

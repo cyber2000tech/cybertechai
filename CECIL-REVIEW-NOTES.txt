@@ -1,35 +1,17 @@
-Cyber Tech — client instruction review
+Cyber Tech V21: updates from Cecil, October 12 2026
 
-SOURCE WEBSITE: Cyber-Tech-Website-v8-Engineering-Interactions-Corrected(1).zip
-SOURCE SLIDES: FOR THE WEB PAGE_2(1).pptx
+SOURCE: V20 mobile-responsive site and V3 UPDATED SERVICES FOR THE WEB PAGE.pptx.
 
-HOME:
-- Existing Cyber Tech introduction preserved, with only "in the metaverse" added to the engineering statement.
-- Globe words: CYBER / HUMAN / PHYSICAL / Interactions in the metaverse, large and SVG-centered.
-- MISSION AND SERVICES combined here with client-supplied copy (definite typos corrected).
-- Domains description moved into Mission and Services.
-- Overview of our Teams' Expertise and Experience shows full original presentation slides 2–6 vertically.
-- Contact remains on the homepage; investment notice remains.
+- Kept the top-right navigation exactly as in V20: Home, Domains, Contact.
+- Kept the current homepage headline: Cognitive Solutions for the interconnected cyber-human-physical metaverse.
+- The old small duplicate line remains removed.
+- Preserved the globe message: CYBER / HUMAN / PHYSICAL / Interactions in the Metaverse.
+- Retained the combined MISSION AND SERVICES homepage section and the approved copy with spelling corrections.
+- Removed two extra paragraphs not present in Cecil's latest pasted Mission and Services text.
+- Replaced all six homepage services slides using ORIGINAL FULL-SLIDE renderings from the newly uploaded V3 presentation, in order 2,3,4,5,6,7. No crop, recreation, overlay text, new captions or click-enlarge controls.
+- Kept only the previously approved slide 1 (Domains overview) on the separate Domains page, so the service slides 2-7 appear only on Home.
+- Preserved the Contact panel and investment notice.
 
-DOMAINS:
-- Title "Domains" only, with all six slides from the second presentation one below the other; no clickable image enlargement, extra captions, or page-generated numbering.
+CAUTION: Two visible typos remain INSIDE the source PowerPoint's new slide 7: 'smicro devices assembly' and 'asemble micron sized components'. These were NOT edited because Cecil requested that the updated presentation slides be preserved exactly as sent. The slide 6 title is also singular ('nurse') as supplied. Please confirm any source-slide wording changes directly with Cecil before modifying artwork.
 
-MENU:
-- Home, Domains, Contact. Contact goes to the bottom of the homepage.
-- Former services.html and mission.html redirect to the combined homepage section.
-
-IMPORTANT:
-- Each slide is rendered in its entirety. For the WEBSITE COPY ONLY, the four standalone slide numbers (3, 4, 5, 6) were removed from the slide artwork as Cecil requested, and the first slide’s “meta-verse” spelling was corrected to “metaverse”. Diagrams, positions, and all other presentation text remain as supplied. The ORIGINAL uploaded PowerPoint was not modified.
-- The "Discover our domains" label is unchanged; its destination points to domains.html because the old #explore card section no longer exists.
-- Nothing has been published to the live site.
-
-FINAL AUDIT NOTES:
-- Main header menu is Home | Domains | Contact; no Services or Mission menu item.
-- Home includes introduction, MISSION AND SERVICES, slides 2 through 6 in order, and Contact.
-- Domains has only the heading “Domains” and slides 1 through 6 vertically.
-- No image hyperlinks, “View full image”, numbers added by the website, or assistant-created slide captions.
-- Old Services and Mission file paths redirect to the homepage MISSION AND SERVICES section.
-- All six presentation slides are also on Domains because earlier Cecil instructions explicitly required them there; slides 2–6 also appear on the homepage per his later direction. Please confirm this intentional duplication with Cecil if he wants less repetition.
-- “Discover our domains” on the homepage is still a link because Cecil explicitly directed that the introductory material, including this call to action, remain. It does technically allow navigation outside the upper-right menu; the two directions conflict, so no unapproved deletion was made.
-- The client’s original introduction wording is preserved except the specifically requested metaverse addition.
-- The underlying slide deck was preserved untouched; only render copies used in this website were proofread.
+The site is not deployed. Extract and review before uploading to GitHub.

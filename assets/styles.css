@@ -768,3 +768,51 @@ body:not(.is-leaving) .site-main { animation-duration:.52s; }
 }
 
 .section-heading .section-subtitle { max-width: 980px; }
+
+/* v6 · Compact first-screen spacing across all four pages.
+   Content and client-provided wording are intentionally unchanged. */
+@media (min-width: 901px) {
+  /* Earlier styles added 90px above the homepage and centered copy
+     vertically inside the tall orbital visual; that produced a large gap. */
+  .home-hero .hero-layout {
+    align-items: start;
+    padding-top: 44px;
+    padding-bottom: 72px;
+  }
+  .home-hero .hero-content {
+    align-self: start;
+    padding-top: 10px;
+  }
+  .home-hero .hero-side { min-height: 610px; }
+}
+/* Interior page headings no longer start more than 100px below the nav. */
+.inner-hero { padding-top: 62px; padding-bottom: 74px; }
+@media (max-width: 900px) {
+  .home-hero .hero-layout {
+    padding-top: clamp(36px, 5vw, 48px);
+  }
+  .inner-hero { padding-top: 50px; padding-bottom: 60px; }
+}
+@media (max-width: 500px) {
+  .home-hero .hero-layout { padding-top: 32px; }
+  .inner-hero { padding-top: 38px; padding-bottom: 50px; }
+}
+
+/* v7 · final spacing refinement after client visual review.
+   Only top spacing changes; artwork, written copy, navigation, and page structure stay intact. */
+@media (min-width: 901px) {
+  .home-hero .hero-layout { padding-top: 22px; padding-bottom: 58px; }
+  .home-hero .hero-content { padding-top: 0; }
+}
+.inner-hero { padding-top: 38px; padding-bottom: 60px; }
+.mission-main--client { padding-top: 48px; }
+@media (min-width: 501px) and (max-width: 900px) {
+  .home-hero .hero-layout { padding-top: 26px; }
+  .inner-hero { padding-top: 34px; padding-bottom: 54px; }
+  .mission-main--client { padding-top: 42px; }
+}
+@media (max-width: 500px) {
+  .home-hero .hero-layout { padding-top: 22px; }
+  .inner-hero { padding-top: 28px; padding-bottom: 48px; }
+  .mission-main--client { padding-top: 35px; }
+}

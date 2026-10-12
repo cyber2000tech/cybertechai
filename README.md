@@ -98,3 +98,7 @@ The public-facing brand is **Cyber Tech**. The existing domain `cybertechai.us`,
 - Domains includes the three requested focus areas, learning statement, and all six slides from the available PowerPoint in their original order. Captions match the PowerPoint text.
 - The latest-referenced second PowerPoint deck was not available among the attached files for this run. The deck used here was FOR THE WEB PAGE.pptx. Replace the six slide images and captions if the newer deck differs.
 - Upload the extracted ZIP contents to the root of github.com/cyber2000tech/cybertechai; do not upload the ZIP as a single file. No DNS changes are needed.
+
+
+## Version 6: top spacing adjustment
+The homepage and inner-page introduction areas use reduced top spacing so content begins closer to the sticky navigation. The globe animation, wording, investor notice, and custom domain are unchanged.

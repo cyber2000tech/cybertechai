@@ -1,0 +1,35 @@
+Cyber Tech — client instruction review
+
+SOURCE WEBSITE: Cyber-Tech-Website-v8-Engineering-Interactions-Corrected(1).zip
+SOURCE SLIDES: FOR THE WEB PAGE_2(1).pptx
+
+HOME:
+- Existing Cyber Tech introduction preserved, with only "in the metaverse" added to the engineering statement.
+- Globe words: CYBER / HUMAN / PHYSICAL / Interactions in the metaverse, large and SVG-centered.
+- MISSION AND SERVICES combined here with client-supplied copy (definite typos corrected).
+- Domains description moved into Mission and Services.
+- Overview of our Teams' Expertise and Experience shows full original presentation slides 2–6 vertically.
+- Contact remains on the homepage; investment notice remains.
+
+DOMAINS:
+- Title "Domains" only, with all six slides from the second presentation one below the other; no clickable image enlargement, extra captions, or page-generated numbering.
+
+MENU:
+- Home, Domains, Contact. Contact goes to the bottom of the homepage.
+- Former services.html and mission.html redirect to the combined homepage section.
+
+IMPORTANT:
+- Each slide is rendered in its entirety. For the WEBSITE COPY ONLY, the four standalone slide numbers (3, 4, 5, 6) were removed from the slide artwork as Cecil requested, and the first slide’s “meta-verse” spelling was corrected to “metaverse”. Diagrams, positions, and all other presentation text remain as supplied. The ORIGINAL uploaded PowerPoint was not modified.
+- The "Discover our domains" label is unchanged; its destination points to domains.html because the old #explore card section no longer exists.
+- Nothing has been published to the live site.
+
+FINAL AUDIT NOTES:
+- Main header menu is Home | Domains | Contact; no Services or Mission menu item.
+- Home includes introduction, MISSION AND SERVICES, slides 2 through 6 in order, and Contact.
+- Domains has only the heading “Domains” and slides 1 through 6 vertically.
+- No image hyperlinks, “View full image”, numbers added by the website, or assistant-created slide captions.
+- Old Services and Mission file paths redirect to the homepage MISSION AND SERVICES section.
+- All six presentation slides are also on Domains because earlier Cecil instructions explicitly required them there; slides 2–6 also appear on the homepage per his later direction. Please confirm this intentional duplication with Cecil if he wants less repetition.
+- “Discover our domains” on the homepage is still a link because Cecil explicitly directed that the introductory material, including this call to action, remain. It does technically allow navigation outside the upper-right menu; the two directions conflict, so no unapproved deletion was made.
+- The client’s original introduction wording is preserved except the specifically requested metaverse addition.
+- The underlying slide deck was preserved untouched; only render copies used in this website were proofread.

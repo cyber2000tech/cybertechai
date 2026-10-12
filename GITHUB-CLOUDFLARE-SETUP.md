@@ -1,4 +1,4 @@
-# CybertechAI.us: GitHub and Cloudflare setup guide
+# Cyber Tech.us: GitHub and Cloudflare setup guide
 
 ## A. On the GitHub repository creation screen you sent
 

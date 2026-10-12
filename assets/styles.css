@@ -1,4 +1,4 @@
-/* CybertechAI | static, no-build website */
+/* Cyber Tech | static, no-build website */
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
@@ -40,7 +40,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--cyan); outline-
 .site-header.is-scrolled { height: 76px; background: rgba(6,15,27,.93); border-bottom-color: rgba(126,185,221,.15); }
 .nav-shell { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 36px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; flex-shrink: 0; font-family: var(--font-display); font-size: 23px; font-weight: 700; letter-spacing: -.065em; }
-.brand span.brand-ai { color: var(--cyan); }
+.brand span.brand-accent { color: var(--cyan); }
 .brand-mark { display: block; width: 35px; height: 35px; color: var(--cyan); }
 .brand-mark svg { display: block; width: 100%; height: 100%; }
 .nav-links { display: flex; align-items: center; gap: 36px; margin-left: auto; }

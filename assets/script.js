@@ -1,4 +1,4 @@
-/* CybertechAI | progressive enhancement. No dependencies or build step. */
+/* Cyber Tech | progressive enhancement. No dependencies or build step. */
 (() => {
   'use strict';
   document.documentElement.classList.add('js');

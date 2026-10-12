@@ -1,4 +1,4 @@
-# CybertechAI - GitHub Pages deployment package
+# Cyber Tech - GitHub Pages deployment package
 
 **Official domain:** https://cybertechai.us  
 **GitHub username from setup screenshot:** `cyber2000tech`  
@@ -84,3 +84,7 @@ Captions are positioned directly under the images; the larger technical captions
 ## Homepage client-image presentation fix (October 2026)
 
 The homepage previews now use responsive proportional media frames, with full-image containment, centered positioning, and inset spacing. The Venn diagram is constrained to fit within its presentation frame. This update changes only `index.html` image dimensions and `assets/styles.css` homepage styles; the source client images and detailed sections stay unchanged.
+
+
+## Brand name update
+The public-facing brand is **Cyber Tech**. The existing domain `cybertechai.us`, GitHub repository `cyber2000tech/cybertechai`, and the root `CNAME` file remain unchanged to avoid interrupting hosting or HTTPS.

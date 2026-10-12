@@ -655,7 +655,7 @@ body:not(.is-leaving) .site-main { animation-duration:.52s; }
   color: #dcecf9;
   padding-left: 17px;
   margin: 26px 0 17px;
-  border-left: 2px solid var(--client-orange);
+  border-left: none;
 }
 .hero-content .hero-description { margin-top: 13px; }
 .hero-content .text-link { margin-top: 26px; }

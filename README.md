@@ -1,13 +1,15 @@
-# Cyber Tech — Cecil updated services slides (V21)
+# Cyber Tech — V23 verified against Cecil's V3 PowerPoint
 
-A complete static website ready to upload to GitHub Pages. Use Home, Domains and Contact in the unchanged upper-right menu.
+Static website ready for review and GitHub Pages upload. No build process needed.
 
-## Cecil's newest update
-The six services slides (2–7) from **V3 UPDATED SERVICES FOR THE WEB PAGE.pptx** appear only on the homepage under **Overview of our Teams' Expertise and Experience**. The slides are reproduced as full-slide PNGs in the approved sequence, without cropping or zoom links. The new medical robotics slide is slide 7.
+- Homepage: Removed the entire “Our Unique Information Centric Perspective…” paragraph and its orange rule, as Cecil explicitly requested. Kept the other existing homepage text unchanged.
+- Presentation: Homepage displays complete V3 slides 2–7 in original order under Mission and Services, with no cropping, no enlarged-image links, and no added subtitles.
+- Domains: Slide 1 is now the exact V3 slide 1 rendering (replacing an older edited graphic).
+- Navigation: Home, Domains, Contact unchanged from V22. “Discover our domains” remains removed.
+- Responsive CSS remains in place. No redesign or new material was added.
 
-The Domains page remains reachable via the unchanged menu and shows the previously approved domains overview (slide 1), without repeating the services presentation. The homepage's Mission and Services content, contact section, and investment notice are retained.
+**Note:** The deleted “Our Unique Information Centric Perspective…” sentence still exists *inside V3 PowerPoint slide 1* on the separate Domains page. This is part of Cecil’s slide artwork, not homepage text. I did not change it because you asked for an exact V3 slide match.
 
-## Install
-Extract the ZIP and upload all files and folders, preserving the `assets/` directory, to your GitHub Pages repository. No build step is needed.
+**Source-slide wording**: The PowerPoint contains `meta-verse` on slide 1, `smicro` and `asemble` on slide 7, and `nurse` (singular) on slide 6. These are unmodified so the slides match the supplied PowerPoint exactly.
 
-Review `CECIL-REVIEW-NOTES.txt` for source-slide typos intentionally left intact.
+To publish, extract the ZIP and upload everything (including the `assets/` folder) to the GitHub Pages repository. The live site is not changed by this ZIP.

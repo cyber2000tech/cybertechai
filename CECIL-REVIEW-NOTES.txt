@@ -1,4 +1,4 @@
-Cyber Tech V21: updates from Cecil, October 12 2026
+Cyber Tech V23: updates from Cecil, October 12 2026
 
 SOURCE: V20 mobile-responsive site and V3 UPDATED SERVICES FOR THE WEB PAGE.pptx.
 
@@ -9,9 +9,11 @@ SOURCE: V20 mobile-responsive site and V3 UPDATED SERVICES FOR THE WEB PAGE.pptx
 - Retained the combined MISSION AND SERVICES homepage section and the approved copy with spelling corrections.
 - Removed two extra paragraphs not present in Cecil's latest pasted Mission and Services text.
 - Replaced all six homepage services slides using ORIGINAL FULL-SLIDE renderings from the newly uploaded V3 presentation, in order 2,3,4,5,6,7. No crop, recreation, overlay text, new captions or click-enlarge controls.
-- Kept only the previously approved slide 1 (Domains overview) on the separate Domains page, so the service slides 2-7 appear only on Home.
+- Replaced Domains slide 1 with a pixel-identical rendering from the re-uploaded V3 PowerPoint; the service slides 2–7 appear only on Home.
 - Preserved the Contact panel and investment notice.
 
 CAUTION: Two visible typos remain INSIDE the source PowerPoint's new slide 7: 'smicro devices assembly' and 'asemble micron sized components'. These were NOT edited because Cecil requested that the updated presentation slides be preserved exactly as sent. The slide 6 title is also singular ('nurse') as supplied. Please confirm any source-slide wording changes directly with Cecil before modifying artwork.
 
 The site is not deployed. Extract and review before uploading to GitHub.
+
+V23 AUDIT: The homepage “Our Unique Information Centric Perspective...” text and orange left border were removed per Cecil’s latest direction. All 7 slide PNGs are byte-for-byte identical to the V3 presentation renderings. No other content, navigation, or images were changed.

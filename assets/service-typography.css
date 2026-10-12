@@ -1,0 +1,90 @@
+/* Cecil: consistent readable website typography instead of PowerPoint slides.
+   Titles and descriptions are real text, while the original diagrams and illustrations are embedded images. */
+.cecil-content-inner > p,
+.cecil-content-inner > ul {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  line-height: 1.68;
+  color: #eef4fb;
+  letter-spacing: 0;
+  max-width: 1020px;
+}
+.cecil-content-inner > p { margin-bottom: 24px; }
+.cecil-content-inner > ul { margin-top: 12px; margin-bottom: 30px; }
+.cecil-content-inner > ul li { margin: 11px 0; }
+.cecil-content-inner > h2 { letter-spacing: -.035em; }
+.cecil-content-section .cecil-slide-list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 36px;
+  width: 100%;
+  max-width: 940px;
+  margin-inline: auto;
+}
+.cecil-content-section .service-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  background: transparent;
+  border: 0;
+}
+.cecil-content-section .service-visual-title {
+  font-family: var(--font-display), system-ui, sans-serif;
+  font-size: 28px;
+  line-height: 1.28;
+  font-weight: 500;
+  letter-spacing: -.022em;
+  color: #eefaff;
+  margin: 0 0 18px;
+  text-wrap: pretty;
+}
+.cecil-content-section .service-visual-image {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid rgba(148,208,228,.26);
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: clamp(6px,1.4vw,16px);
+}
+.cecil-content-section .service-visual-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+.cecil-content-section .service-visual-description {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #dceaf5;
+  margin: 16px 0 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+@media (max-width: 900px) {
+ .cecil-content-inner > p, .cecil-content-inner > ul { font-size: 20px; line-height: 1.65; }
+ .cecil-content-section .cecil-slide-list { max-width: 720px; gap: 30px; }
+ .cecil-content-section .service-visual-title { font-size: 26px; }
+ .cecil-content-section .service-visual-description { font-size: 19px; }
+}
+@media (max-width: 640px) {
+ .cecil-content-inner > p, .cecil-content-inner > ul { font-size: 18px; line-height: 1.65; }
+ .cecil-content-section .cecil-slide-list { width: 100%; max-width: 100%; gap: 28px; }
+ .cecil-content-section .service-visual-title { font-size: 23px; line-height: 1.32; margin-bottom: 12px; }
+ .cecil-content-section .service-visual-description { font-size: 18px; line-height: 1.58; margin-top: 12px; }
+ .cecil-content-section .service-visual-image { padding: 5px; }
+}
+@media (max-width: 350px) {
+ .cecil-content-inner > p, .cecil-content-inner > ul { font-size: 17.5px; }
+ .cecil-content-section .service-visual-title { font-size: 21px; }
+ .cecil-content-section .service-visual-description { font-size: 17px; }
+}

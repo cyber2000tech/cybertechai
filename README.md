@@ -88,3 +88,13 @@ The homepage previews now use responsive proportional media frames, with full-im
 
 ## Brand name update
 The public-facing brand is **Cyber Tech**. The existing domain `cybertechai.us`, GitHub repository `cyber2000tech/cybertechai`, and the root `CNAME` file remain unchanged to avoid interrupting hosting or HTTPS.
+
+
+## Cyber Tech client revision (October 12, 2026)
+- Display name: Cyber Tech. The live domain remains cybertechai.us.
+- Top navigation now displays Home, Services, Domains, and highlighted Contact. Mission is linked from the homepage card and footer.
+- Homepage content follows the client-supplied replacement wording and the original investor notice remains exact.
+- Services includes the client-provided wording, benefits, and two original service areas.
+- Domains includes the three requested focus areas, learning statement, and all six slides from the available PowerPoint in their original order. Captions match the PowerPoint text.
+- The latest-referenced second PowerPoint deck was not available among the attached files for this run. The deck used here was FOR THE WEB PAGE.pptx. Replace the six slide images and captions if the newer deck differs.
+- Upload the extracted ZIP contents to the root of github.com/cyber2000tech/cybertechai; do not upload the ZIP as a single file. No DNS changes are needed.

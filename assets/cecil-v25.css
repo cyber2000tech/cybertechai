@@ -1,0 +1,72 @@
+/* Cecil's October instructions: retain dark theme, remove globe and brand emblem, show supplied PNGs. */
+/* Top and bottom legal name */
+.site-header .brand, .site-footer .brand { font-weight: 600; }
+.brand { white-space: nowrap; }
+/* Homepage: no leftover globe or starfield, no large gap to Mission and Services. */
+.home-hero.cecil-home-simple { min-height: 0 !important; height: auto !important; padding: 36px 0 28px !important; overflow: hidden; }
+.cecil-home-intro { display: flex; flex-direction: column; align-items: flex-start; gap: 0; }
+.cecil-home-simple .hero-title { font-size: clamp(53px, 6.3vw, 86px); line-height: 1.06; margin: 0 0 18px; max-width: 100%; }
+.cecil-home-simple .hero-declaration--client { font-size: clamp(29px, 3.3vw, 45px); line-height: 1.23; font-weight: 400; max-width: 920px; margin: 0 0 18px; letter-spacing: -.035em; }
+.cecil-home-simple .hero-declaration--client span { color: var(--cyan-soft); }
+.cecil-home-simple .hero-description { font-size: clamp(18px,1.7vw,22px); line-height: 1.6; max-width: 840px; margin: 0; color: #c4d8e9; }
+.cecil-home-images { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); align-items: center; justify-items: center; gap: 22px; width: min(100%,990px); margin: 28px auto 0; }
+.cecil-home-images img { display: block; width: auto; height: auto; max-width: 100%; max-height: 206px; object-fit: contain; border: 0; box-shadow: none; }
+/* Space between sections tightened; don't alter content */
+.cecil-content-section { padding-top: 36px !important; }
+.cecil-content-section .cecil-slide-list { max-width: 760px; gap: 26px; }
+.cecil-content-section .service-visual { margin-inline: auto; }
+.cecil-content-section .service-visual-image { box-sizing: border-box; width: min(100%,510px); max-width: 100%; align-self: center; padding: 0; border: 0; border-radius: 0; background: transparent; }
+.cecil-content-section .service-visual-image img { display: block; width: 100%; height: auto; object-fit: contain; }
+.cecil-content-section .service-visual:last-child .service-visual-image { width: min(100%,315px); }
+.cecil-content-section .service-visual-title { max-width: 740px; font-size: clamp(22px,2.1vw,27px); }
+.cecil-content-section .service-visual-description { max-width: 740px; font-size: clamp(18px,1.6vw,20px); }
+/* New Domains page from the supplied editable PowerPoint: text not screenshots of slides. */
+.domains-main-exact { overflow: clip; }
+.domain-sequence { padding: 48px 0 90px; }
+.domain-reading { max-width: 1040px; }
+.domain-reading h1 { color: #eff8ff; font-family: var(--font-display); font-size: clamp(43px,5vw,65px); line-height: 1.12; font-weight: 500; margin: 0 0 34px; }
+.domain-reading h2 { color: #eef8ff; font-family: var(--font-display); font-size: clamp(28px,3vw,39px); line-height: 1.23; font-weight: 500; margin: 0 0 22px; letter-spacing: -.02em; }
+.domain-reading p, .domain-reading li { color: #e2edf7; font: 400 clamp(18px,1.65vw,21px)/1.72 Georgia, 'Times New Roman',serif; margin: 0 0 19px; overflow-wrap: break-word; }
+.domain-reading em { font-style: italic; color: #f2f7ff; }
+.domain-areas { margin: 0 0 45px; padding-left: 28px; }
+.domain-areas li { margin: 4px 0; }
+.domain-detail { margin: 46px 0 0; padding: 37px 0 10px; border-top: 1px solid rgba(113,172,200,.25); }
+.domain-figure { margin: 28px auto 36px; display: flex; align-items: center; flex-direction: column; gap: 18px; max-width: 100%; }
+.domain-figure img { display:block; max-width: 100%; width: auto; height: auto; object-fit: contain; }
+.domain-photo img { max-height: 290px; }
+.domain-full-diagram img { width: min(100%,850px); max-height: none; }
+.domain-figure figcaption { max-width: 660px; color: #dbe8f4; font: 400 19px/1.55 Georgia,'Times New Roman',serif; }
+@media (max-width:900px) {
+ .home-hero.cecil-home-simple {padding: 28px 0 30px !important;}
+ .cecil-home-simple .hero-title { font-size: clamp(48px,9vw,73px); }
+ .cecil-home-simple .hero-declaration--client { font-size: clamp(27px,4.5vw,37px); }
+ .cecil-home-images { gap: 12px; margin-top: 23px; }
+ .cecil-home-images img { max-height: 160px; }
+ .domain-reading p,.domain-reading li {font-size:19px;}
+}
+@media (max-width:640px) {
+ .home-hero.cecil-home-simple { padding: 24px 0 22px !important; }
+ .cecil-home-simple .hero-title { font-size: clamp(43px,11vw,59px); margin-bottom:16px; }
+ .cecil-home-simple .hero-declaration--client { font-size: clamp(25px,6.1vw,31px); line-height:1.24; margin-bottom: 18px; }
+ .cecil-home-simple .hero-description { font-size: 17px; line-height:1.61; }
+ .cecil-home-images { grid-template-columns: 1fr; width: 100%; gap: 18px; margin-top: 24px; }
+ .cecil-home-images img { width: auto; max-width: min(100%,275px); max-height: 155px; }
+ .cecil-content-section {padding-top:28px !important;}
+ .cecil-content-section .cecil-slide-list { max-width: 100%; width:100%; gap: 26px; }
+ .cecil-content-section .service-visual-image {width: min(100%,460px);}
+ .cecil-content-section .service-visual:last-child .service-visual-image {width: min(100%,290px);}
+ .domain-sequence {padding:31px 0 60px;}
+ .domain-reading h1 {font-size: 42px; margin-bottom:25px;}
+ .domain-reading h2 {font-size:clamp(25px,6.3vw,32px);}
+ .domain-reading p,.domain-reading li {font-size:18px;line-height:1.63;}
+ .domain-detail { margin-top:28px; padding-top:28px;}
+ .domain-figure {margin:22px auto 28px;}
+ .domain-photo img { max-height: 230px;}
+ .domain-figure figcaption { font-size:17px;line-height:1.58;}
+ .brand {font-size:clamp(16px,4.7vw,20px);}
+}
+@media (max-width:340px) {
+ .cecil-home-simple .hero-title { font-size: 42px; }
+ .cecil-home-simple .hero-declaration--client { font-size: 24px; }
+ .cecil-home-images img {max-width: min(100%,260px); }
+}

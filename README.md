@@ -1,12 +1,14 @@
-Cyber Tech — typography update for Dr. Cecil
+Cyber Tech LLC · October 2026 client revision
 
-- Mission and Services body text is larger and set in a consistent Georgia/Times-style serif font.
-- Service visuals appear as illustrations, not PowerPoint slides. Their image-only artwork is taken from V3 slides 2 through 7.
-- Service titles appear above each visual (except slide 3, which has no title in Cecil's V3 PowerPoint).
-- Complete description text from the original slide appears as readable text underneath each visual.
-- Title font sizes are consistent across the six entries; description font sizes are consistent across the six entries.
-- No slide numbers or full-image controls are displayed.
-- Navigation, homepage wording, contact information, the Domains page, and background colors remain unchanged.
-- Text was extracted without editorial rewriting. Slide 7 contains Cecil's original wording: “smicro” and “asemble”; those typos remain pending permission to correct.
+Source: V24 website + V3 EDITS TO MAIN PAGE HERE.pptx + EDITS TO DOMAINS.pptx + the six provided PNG graphics.
 
-The live website was not published.
+Changes applied:
+- Removed logo emblem before the name on the header and footer; added LLC to both.
+- Removed rotating globe and decorative lines from homepage; placed three user-supplied PNGs (robotics, medical simulation, space system) at the top.
+- Increased main-page statement and supporting-copy typography and closed the gap before Mission and Services.
+- Reduced existing six Mission and Services visuals, particularly the last robotics figure.
+- Rebuilt Domains as readable native web text in supplied sequence with inline illustrations, preserving identified italic emphasis.
+- Preserved the Home / Domains / Contact navigation, current site theme, investor note, URL/CNAME, and legacy-page redirects.
+- Existing Venn diagram not placed because Cecil requested to decide its future location later.
+
+IMPORTANT: This ZIP is a review draft, not an automatically published update.

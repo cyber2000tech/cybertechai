@@ -62,3 +62,21 @@ See **GITHUB-CLOUDFLARE-SETUP.md** for a more detailed visual step list, HTTPS g
 - GitHub custom domain DNS: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
 - GitHub HTTPS: https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
 - Cloudflare proxy status: https://developers.cloudflare.com/dns/proxy-status/
+
+
+## Client PowerPoint visual integration (October 2026)
+
+The six image files in `assets/client/` were extracted from the client-provided presentation **FOR THE WEB PAGE.pptx**. Diagrams containing grouped PowerPoint elements were rendered faithfully to WebP. All assets are self-hosted by the website and are editable/replacable independently of page code.
+
+| PowerPoint slide | Website location | Image asset |
+| --- | --- | --- |
+| 1, Modeling / Simulation / Exchange Venn | Homepage, "Our information-centric perspective" | `modeling-simulation-exchange.webp` |
+| 2, 3D digital twin design framework | Services, "Digital twins, built on understanding" | `digital-twin-framework.webp` |
+| 3, Cognitive manufacturing workflow | Domains, "Cognitive manufacturing and simulation" | `cognitive-manufacturing-workflow.webp` |
+| 4, Immersive vs physical manufacturing system | Domains, "Virtual and physical systems together" | `immersive-physical-manufacturing.webp` |
+| 5, Factory/shop-floor digital twin examples | Homepage application preview & Domains, "Immersive manufacturing environments" | `factory-digital-twins.webp` |
+| 6, Virtual/Mixed Reality nurse/surgeon training | Homepage application preview & Domains, "Virtual and mixed reality for clinical training" | `surgical-vr-training.webp` |
+
+Captions are positioned directly under the images; the larger technical captions are on the respective interior pages. Clicking a technical image opens a full-size version for detailed inspection. The homepage remains structured around Services, Domains, Mission and Contact; adding new application pages later does not require redesigning it.
+
+**Publishing:** This ZIP is a revised release. Upload and commit all updated files including the entire `assets/client/` folder to the existing public GitHub repository `cyber2000tech/cybertechai` on branch `main`. The existing `CNAME`, `robots.txt` and `sitemap.xml` remain intact. Do not remove the custom domain setting.

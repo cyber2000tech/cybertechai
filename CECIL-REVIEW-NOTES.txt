@@ -1,19 +1,8 @@
-Cyber Tech V23: updates from Cecil, October 12 2026
+Cyber Tech LLC website review notes (V27)
 
-SOURCE: V20 mobile-responsive site and V3 UPDATED SERVICES FOR THE WEB PAGE.pptx.
-
-- Kept the top-right navigation exactly as in V20: Home, Domains, Contact.
-- Kept the current homepage headline: Cognitive Solutions for the interconnected cyber-human-physical metaverse.
-- The old small duplicate line remains removed.
-- Preserved the globe message: CYBER / HUMAN / PHYSICAL / Interactions in the Metaverse.
-- Retained the combined MISSION AND SERVICES homepage section and the approved copy with spelling corrections.
-- Removed two extra paragraphs not present in Cecil's latest pasted Mission and Services text.
-- Replaced all six homepage services slides using ORIGINAL FULL-SLIDE renderings from the newly uploaded V3 presentation, in order 2,3,4,5,6,7. No crop, recreation, overlay text, new captions or click-enlarge controls.
-- Replaced Domains slide 1 with a pixel-identical rendering from the re-uploaded V3 PowerPoint; the service slides 2–7 appear only on Home.
-- Preserved the Contact panel and investment notice.
-
-CAUTION: Two visible typos remain INSIDE the source PowerPoint's new slide 7: 'smicro devices assembly' and 'asemble micron sized components'. These were NOT edited because Cecil requested that the updated presentation slides be preserved exactly as sent. The slide 6 title is also singular ('nurse') as supplied. Please confirm any source-slide wording changes directly with Cecil before modifying artwork.
-
-The site is not deployed. Extract and review before uploading to GitHub.
-
-V23 AUDIT: The homepage “Our Unique Information Centric Perspective...” text and orange left border were removed per Cecil’s latest direction. All 7 slide PNGs are byte-for-byte identical to the V3 presentation renderings. No other content, navigation, or images were changed.
+The homepage uses the three PNG images Cecil supplied, not the earlier revolving globe.
+The navigation remains Home, Domains, Contact. The Contact menu links to the homepage contact section.
+The former contact.html URL redirects to that section, so it is correctly omitted from the sitemap.
+The original embedded diagram/image text has not been edited.
+V27 standardizes visible grammar, hyphenation and digital-twin terminology across page copy.
+No change to client-supplied PNG artwork, mobile styles, domain configuration, or investment notice.

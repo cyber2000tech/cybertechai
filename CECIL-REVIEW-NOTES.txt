@@ -1,8 +1,13 @@
-Cyber Tech LLC website review notes (V27)
+Cyber Tech LLC — website audit (V32)
 
-The homepage uses the three PNG images Cecil supplied, not the earlier revolving globe.
-The navigation remains Home, Domains, Contact. The Contact menu links to the homepage contact section.
-The former contact.html URL redirects to that section, so it is correctly omitted from the sitemap.
-The original embedded diagram/image text has not been edited.
-V27 standardizes visible grammar, hyphenation and digital-twin terminology across page copy.
-No change to client-supplied PNG artwork, mobile styles, domain configuration, or investment notice.
+Current published pages in this package: index.html and domains.html.
+Home contains Mission and Services, 3 uploaded homepage PNGs, 6 embedded service visuals, and contact.
+Domains contains the process-domain descriptions and the 3 other exact uploaded PNGs, plus the reused headset image.
+Navigation: Home, Domains, Contact; Contact links to the homepage section.
+Old contact.html/services.html/mission.html are redirects.
+The original emblem has been removed from header and deprecated favicon references.
+The Venn graphic is not on the website; Cecil deferred its placement.
+The six primary uploaded PNGs are pixel-identical to the files supplied.
+No domain or Cloudflare configuration was changed.
+
+See AUDIT-REPORT.md for completed checks, cautious editorial exceptions, and testing limits.

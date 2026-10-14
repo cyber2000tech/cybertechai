@@ -1,0 +1,25 @@
+/* V33: Dr. Cecil's mission/services, independent PNG diagram, and moved Expertise page. */
+.cecil-content-section .mission-feature-line {font-family:var(--font-display);font-size:clamp(30px,3.6vw,49px);font-weight:500;line-height:1.20;letter-spacing:-.038em;max-width:1030px;margin:28px 0 36px;color:#eaf6ff;text-wrap:balance;}
+.mission-feature-line span {color:#55dfff;}
+.mission-copy {max-width:990px;}
+.cecil-content-inner .mission-copy > p, .cecil-content-inner .mission-copy > ul {font-family:Georgia,'Times New Roman',serif;color:#e8f1fa;font-size:clamp(19px,1.52vw,21px);line-height:1.7;margin:0 0 22px;}
+.cecil-content-inner .mission-copy strong {font-weight:700;color:#f3fbff;}
+.cecil-content-inner .mission-copy ul {padding-left:30px;margin:12px 0 32px;}
+.cecil-content-inner .mission-copy li {margin-bottom:12px;padding-left:4px;}
+.cecil-content-inner .mission-copy li::marker,.expertise-capability-list li::marker {color:#69dffc;}
+.concept-figure {margin:76px auto 35px;max-width:1140px;}
+.concept-panel {display:grid;grid-template-columns:minmax(150px,.85fr) minmax(330px,2.65fr) minmax(175px,1.18fr);gap:clamp(8px,1.2vw,18px);align-items:center;border:1px solid rgba(104,212,250,.18);border-radius:18px;background:linear-gradient(128deg,rgba(17,50,75,.72),rgba(7,23,45,.7) 50%,rgba(27,39,73,.38));padding:clamp(16px,2.8vw,36px);box-shadow:0 14px 45px rgba(0,0,0,.12);}
+.concept-text {display:block;max-width:100%;height:auto;object-fit:contain;}
+.concept-circles {display:block;width:100%;max-width:560px;height:auto;justify-self:center;filter:drop-shadow(0 12px 32px rgba(47,118,196,.14));}
+.concept-right-side {display:grid;gap:clamp(20px,4vw,54px);align-items:center;}
+.concept-figure figcaption {font:500 clamp(24px,2.5vw,35px)/1.35 var(--font-display);letter-spacing:-.02em;text-align:center;color:#8ce6fa;max-width:960px;margin:34px auto 0;text-wrap:balance;}
+.expertise-section {padding-top:60px!important;padding-bottom:65px;}
+.cecil-content-inner > .expertise-heading {font:500 clamp(36px,4.4vw,59px)/1.15 var(--font-display);letter-spacing:-.045em;color:#f5faff;margin:0 0 29px;max-width:1040px;text-wrap:balance;}
+.cecil-content-inner .expertise-capability-list {margin:20px 0 33px;padding-left:28px;max-width:980px;}
+.cecil-content-inner .expertise-capability-list li {margin:9px 0;}
+.cecil-content-inner .expertise-bridge {font-family:var(--font-display);font-size:clamp(22px,2.5vw,29px);color:#7fe5f7;margin:45px 0 38px;}
+.expertise-section .cecil-slide-list {border-top:1px solid rgba(121,206,235,.22);padding-top:42px;}
+@media(max-width:900px){.concept-panel {grid-template-columns:minmax(120px,1fr) minmax(260px,2.4fr);gap:16px;}.concept-right-side {grid-column:1/-1;display:flex;justify-content:center;gap:24px;align-items:center;}.concept-right-side img {max-width:45%;max-height:150px;object-fit:contain;}}
+@media(max-width:640px){.cecil-content-section .mission-feature-line {font-size:clamp(27px,6.5vw,35px);margin:16px 0 26px;}.cecil-content-inner .mission-copy > p,.cecil-content-inner .mission-copy > ul {font-size:18.5px;line-height:1.66;margin-bottom:20px;}.concept-figure {margin-top:46px;}.concept-panel {grid-template-columns:1fr;gap:17px;padding:18px 16px;}.concept-text--models {justify-self:center;width:min(100%,230px);max-height:180px;}.concept-circles {width:min(100%,390px);}.concept-right-side {grid-column:auto;display:grid;grid-template-columns:1fr;gap:16px;justify-items:center;}.concept-right-side img {max-width:min(100%,330px);max-height:160px;}.concept-figure figcaption {font-size:clamp(22px,5.7vw,28px);margin:25px 0 0;}.expertise-section {padding-top:34px!important;}.expertise-section .cecil-slide-list {padding-top:25px;}.cecil-content-inner > .expertise-heading {font-size:clamp(31px,7.7vw,43px);}.cecil-content-inner .expertise-bridge {font-size:23px;}}
+@media(max-width:360px){.concept-panel{padding:14px 12px}.cecil-content-inner .mission-copy > p,.cecil-content-inner .mission-copy > ul {font-size:18px;}}
+@media(prefers-reduced-motion:reduce){.concept-panel,.concept-circles {animation:none!important;}}

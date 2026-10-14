@@ -1,12 +1,11 @@
-# Cyber Tech LLC — V32 (audited)
+# Cyber Tech LLC — V33
 
-This ZIP includes a complete static website for GitHub Pages. Extract the files and upload them into the repository root, preserving the `assets/` directories and the `CNAME` file.
+Static GitHub Pages website for https://cybertechai.us. Upload all root files and `assets/` together to the repository's published branch; keep `CNAME` and `.nojekyll`.
 
-## Website
-- `index.html` — introduction, Mission and Services, images, contact and investor notice.
-- `domains.html` — complete process domains and images.
-- `contact.html`, `services.html`, `mission.html` — redirects to their corresponding homepage sections.
+## Navigation
+Home (`index.html`) · Expertise (`expertise.html`) · Domains (`domains.html`) · Contact (`index.html#contact`).
 
-Compared with V31, corrected the benefits-introduction punctuation, an obvious missing `as` in a Domains sentence, quotation mark consistency, stale Domains social-image description, and unreferenced old emblem/favicon assets. No client-provided images or service wording changed.
+## Client changes
+Mission and Services copy updated from `EDITS TO MISSION AND SERVICES.docx`. Client's four supplied PNGs are adapted to a dark-background transparent composition. Six previous service figures are moved **unchanged** to Expertise; their titles and descriptions stay in order. Contact arrow removed. Domains text preserved.
 
-See `AUDIT-REPORT.md` for full findings. The live website is not deployed by this ZIP.
+See `V33-CHANGELOG-AND-AUDIT.md` for a source comparison and QA results.

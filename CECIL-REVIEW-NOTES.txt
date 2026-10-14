@@ -1,13 +1,1 @@
-Cyber Tech LLC — website audit (V32)
-
-Current published pages in this package: index.html and domains.html.
-Home contains Mission and Services, 3 uploaded homepage PNGs, 6 embedded service visuals, and contact.
-Domains contains the process-domain descriptions and the 3 other exact uploaded PNGs, plus the reused headset image.
-Navigation: Home, Domains, Contact; Contact links to the homepage section.
-Old contact.html/services.html/mission.html are redirects.
-The original emblem has been removed from header and deprecated favicon references.
-The Venn graphic is not on the website; Cecil deferred its placement.
-The six primary uploaded PNGs are pixel-identical to the files supplied.
-No domain or Cloudflare configuration was changed.
-
-See AUDIT-REPORT.md for completed checks, cautious editorial exceptions, and testing limits.
+V33 review: Confirm new Mission and Services copy, diagram placement, Expertise page, and mobile presentation with Dr. Cecil. Older globe and old logo are not used.

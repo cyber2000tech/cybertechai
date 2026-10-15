@@ -16,3 +16,18 @@
 .contact-send-note strong {color:#f6fbff;font-weight:600;}
 @media(max-width:920px) { .contact-panel--reliable {display:block;} .contact-panel--reliable .contact-action--options { width:min(100%,500px); margin:25px 0 0; } }
 @media(max-width:540px) { .contact-panel--reliable .contact-action--options {padding:16px;} .contact-copy-row {flex-wrap:wrap;} .contact-address {flex-basis:100%;} .contact-copy-button {width:100%;} }
+
+/* V35 final visual audit: keep the Gmail action legible on dark contact panels.
+   Explicit colors prevent a dark-on-dark button if theme variables fail to resolve. */
+.contact-action--options a.contact-gmail-link {
+  background: #50dafa;
+  color: #051e30;
+  border: 1px solid #85edff;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(0, 196, 245, .19);
+}
+.contact-action--options a.contact-gmail-link:hover,
+.contact-action--options a.contact-gmail-link:focus-visible {
+  background: #87ebff;
+  color: #051e30;
+}

@@ -1,0 +1,16 @@
+/* V36: Cecil's robotics section moved first, with description before replacement images. */
+.expertise-section .service-visual--robotics { margin-bottom: 26px; }
+.expertise-section .service-visual--robotics .service-visual-title { max-width: 920px; }
+.expertise-section .service-visual--robotics .robotics-intro { width: 100%; max-width: 940px; margin: 0 0 24px; }
+.expertise-section .service-visual--robotics .robotics-intro p { margin: 0 0 16px; }
+.expertise-section .service-visual--robotics .robotics-intro p:last-child {margin-bottom:0;}
+.expertise-section .service-visual--robotics .robotics-intro em { font-weight: 600; color: #79dffd; }
+.expertise-section .service-visual--robotics .robotics-photo { background: transparent; border: 0; padding: 0; align-self: center; border-radius: 0; max-width: 100%; }
+.expertise-section .service-visual--robotics .robotics-photo--main { width: min(100%, 750px); margin-top: 2px; }
+.expertise-section .service-visual--robotics .robotics-photo--details { width: min(100%, 530px); margin-top: 16px; }
+.expertise-section .service-visual--robotics .robotics-photo img { width: 100%; max-width: 100%; height: auto; display: block; }
+@media(max-width:640px) { .expertise-section .service-visual--robotics .robotics-intro {margin-bottom:19px;} .expertise-section .service-visual--robotics .robotics-intro p {margin-bottom:14px;} .expertise-section .service-visual--robotics .robotics-photo--details{margin-top:12px;} }
+/* V25 targeted its final slide for a smaller width; with the reordered slides
+   that rule must not shrink the unrelated surgical-training image. */
+.expertise-section .cecil-slide-list > .service-visual:last-child:not(.service-visual--robotics) .service-visual-image { width: min(100%, 510px); }
+@media(max-width:640px) {.expertise-section .cecil-slide-list > .service-visual:last-child:not(.service-visual--robotics) .service-visual-image { width: min(100%,460px); }}

@@ -31,3 +31,10 @@
   background: #87ebff;
   color: #051e30;
 }
+
+/* V39 contact readability: comfortably legible instructions on phones.
+   Contact links, functions, and actual text remain untouched. */
+.contact-action--options .contact-address { font-size: 14px; }
+.contact-action--options .contact-copy-button { font-size: 14px; }
+.contact-action--options .contact-send-note { font-size: 14px; line-height: 1.6; }
+.contact-action--options .contact-copy-status { font-size: 14px; }

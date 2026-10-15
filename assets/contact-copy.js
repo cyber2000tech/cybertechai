@@ -24,6 +24,6 @@
       }
     } catch (_) { success = false; }
     if (status) status.textContent = success ? 'Email address copied.' : 'Please select and copy the email address above.';
-    button.textContent = success ? 'Copied!' : 'Copy address';
+    button.firstChild.textContent = success ? 'Copied! ' : 'Copy Email Address ';
   });
 })();

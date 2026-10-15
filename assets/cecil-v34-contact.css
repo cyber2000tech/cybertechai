@@ -1,4 +1,4 @@
-/* Cyber Tech contact: one email-app action and one copy-address fallback. */
+/* Contact: display plain email text with an accessible copy button; no email-app launch. */
 .contact-panel--reliable {
   gap: clamp(28px, 4vw, 70px);
   align-items: center;
@@ -20,12 +20,11 @@
   box-shadow: 0 10px 28px rgba(0, 8, 23, .24);
 }
 .contact-action--options .contact-address--featured {
-  margin: 0 0 18px;
+  margin: 0 0 16px;
   color: #e4f5fc;
   font: 600 16px/1.5 var(--font-body, sans-serif);
   overflow-wrap: anywhere;
 }
-.contact-action--options .contact-email-link,
 .contact-action--options .contact-copy-button--main {
   box-sizing: border-box;
   display: flex;
@@ -38,36 +37,26 @@
   border-radius: 8px;
   text-decoration: none;
   cursor: pointer;
-  transition: background .2s ease, border-color .2s ease, box-shadow .2s ease;
+  transition: background .2s ease, border-color .2s ease;
 }
-.contact-action--options .contact-email-link {
+.contact-action--options .contact-copy-button--main {
+  margin-top: 0;
   background: #50dafa;
   color: #051e30;
   border: 1px solid #85edff;
   box-shadow: 0 8px 24px rgba(0, 196, 245, .19);
 }
-.contact-action--options .contact-email-link:hover {
+.contact-action--options .contact-copy-button--main:hover {
   background: #87ebff;
   color: #051e30;
 }
-.contact-action--options .contact-copy-button--main {
-  margin-top: 11px;
-  background: rgba(89, 200, 238, .12);
-  color: #def7ff;
-  border: 1px solid rgba(104, 218, 248, .42);
-}
-.contact-action--options .contact-copy-button--main:hover {
-  background: rgba(89, 200, 238, .24);
-}
-.contact-action--options .contact-email-link svg,
 .contact-action--options .contact-copy-button--main svg {
   flex: 0 0 auto;
   width: 18px;
   height: 18px;
   margin-left: 10px;
 }
-.contact-action--options .contact-copy-button--main:focus-visible,
-.contact-action--options .contact-email-link:focus-visible {
+.contact-action--options .contact-copy-button--main:focus-visible {
   outline: 2px solid #66e4ff;
   outline-offset: 3px;
 }

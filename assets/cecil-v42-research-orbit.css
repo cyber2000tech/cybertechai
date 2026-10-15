@@ -1,0 +1,103 @@
+/* V42 — Cecil's research positioning and restored original orbital artwork.
+   Other website copy, images, and Contact behavior are unchanged. */
+.research-vision-section {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: clamp(52px, 6vw, 96px) 0;
+  border-top: 1px solid rgba(91, 205, 240, .2);
+  background:
+    radial-gradient(ellipse 680px 520px at 73% 42%, rgba(0, 147, 218, .14), transparent 72%),
+    linear-gradient(155deg, #0c1d32, #071626 67%, #091a2d);
+}
+.research-vision-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: .36;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(74, 159, 191, .06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(74, 159, 191, .06) 1px, transparent 1px);
+  background-size: 66px 66px;
+  mask-image: linear-gradient(90deg, transparent, black 45%);
+}
+.research-vision-layout {
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+  align-items: center;
+  gap: clamp(16px, 3vw, 62px);
+}
+.research-vision-copy { max-width: 660px; position: relative; z-index: 1; }
+.research-vision-label {
+  margin: 0 0 22px;
+  font: 600 12px/1.4 var(--font-mono, monospace);
+  color: #73deff;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+}
+.research-vision-copy h2 {
+  margin: 0;
+  color: #f6fbff;
+  font-family: var(--font-display, sans-serif);
+  font-weight: 550;
+  font-size: clamp(31px, 3.35vw, 52px);
+  line-height: 1.16;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+.research-vision-description {
+  max-width: 630px;
+  margin: clamp(22px, 2.7vw, 38px) 0 0;
+  color: #d1e7f5;
+  font-family: var(--font-body, sans-serif);
+  font-size: clamp(18px, 1.45vw, 22px);
+  line-height: 1.75;
+}
+.research-vision-orb {
+  min-width: 0;
+  display: grid;
+  place-items: center;
+  overflow: visible;
+}
+.research-vision-orb .orbital-visual {
+  display: block;
+  width: min(100%, 630px);
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  filter: drop-shadow(0 0 36px rgba(0, 164, 208, .12));
+  animation: artFloat 9s ease-in-out infinite;
+}
+.research-vision-orb .orbital-word {
+  font-family: var(--font-display, sans-serif);
+  font-size: 33px;
+  letter-spacing: .1em;
+  font-weight: 600;
+}
+.research-vision-orb .orbital-word--cyber,
+.research-vision-orb .orbital-word--physical { fill: #effbff; }
+.research-vision-orb .orbital-word--human { fill: #ffbf86; }
+.research-vision-orb .orbital-word--worlds { fill: #77e9ff; }
+@media (max-width: 900px) {
+  .research-vision-layout { grid-template-columns: 1fr; gap: 6px; }
+  .research-vision-copy { max-width: 720px; }
+  .research-vision-orb .orbital-visual { width: min(100%, 575px); }
+}
+@media (max-width: 600px) {
+  .research-vision-section { padding: 52px 0 46px; }
+  .research-vision-copy h2 { font-size: clamp(30px, 7.4vw, 39px); line-height: 1.19; }
+  .research-vision-description { font-size: 18px; line-height: 1.68; }
+  .research-vision-label { font-size: 11px; margin-bottom: 18px; }
+  .research-vision-orb .orbital-visual { width: min(100%, 460px); }
+  .research-vision-orb .orbital-word { font-size: 39px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .research-vision-orb .orbital-visual,
+  .research-vision-orb .orbit-slow,
+  .research-vision-orb .orbit-reverse,
+  .research-vision-orb .orbit-mid,
+  .research-vision-orb .sphere-scan,
+  .research-vision-orb .orbital-atmosphere { animation: none !important; }
+}

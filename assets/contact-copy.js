@@ -1,4 +1,4 @@
-/* Copying the email address is a fallback for browsers without a configured mail app. */
+/* Copy the contact address without opening an email application. */
 (() => {
   'use strict';
   const button = document.querySelector('[data-copy-email]');

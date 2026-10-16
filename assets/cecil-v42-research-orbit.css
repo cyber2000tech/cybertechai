@@ -101,3 +101,6 @@
   .research-vision-orb .sphere-scan,
   .research-vision-orb .orbital-atmosphere { animation: none !important; }
 }
+
+/* Cecil V43: accessible blue emphasis on the two specified Mission phrases. */
+.mission-copy .cecil-blue-text { color: #6EAFFF; }

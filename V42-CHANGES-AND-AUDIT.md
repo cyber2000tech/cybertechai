@@ -6,7 +6,7 @@
 2. Added the supporting statement: **Our tools and services are based on an extensive research foundation involving some of the world's leading researchers.**
 3. Restored the original Cyber/Human/Physical orbital SVG geometry and animations from an earlier Cyber Tech homepage design. The center words now say **CYBER / HUMAN / PHYSICAL / WORLDS**, as requested.
 4. Positioned the new section toward the bottom of the homepage, **between Mission and Services and Contact**. The existing three hero PNGs, Venn diagram, and other sections are untouched.
-5. Preserved the V41 Contact behavior: show `cyber2000tech@gmail.com` as plain text with one **Copy Email Address** button, with no email-opening link or form.
+5. Historical V42 contact setup. Superseded in V44: the Contact section now displays `Cyber2000tech at gmail.com` as non-clickable text, without any copy or email-opening button.
 
 ## Proofreading of the two new lines
 

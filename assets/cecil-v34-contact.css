@@ -85,3 +85,14 @@
 @media (max-width: 540px) {
   .contact-panel--reliable .contact-action--options { padding: 18px; }
 }
+
+/* V44: Cecil requested a plain-text, non-clickable, obfuscated contact address. */
+.contact-action--options .contact-address--featured {
+  margin: 0;
+  font-size: clamp(18px, 1.7vw, 22px);
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  color: #e4f5fc;
+  user-select: text;
+}

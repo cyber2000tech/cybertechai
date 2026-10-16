@@ -104,3 +104,24 @@
 
 /* Cecil V43: accessible blue emphasis on the two specified Mission phrases. */
 .mission-copy .cecil-blue-text { color: #6EAFFF; }
+
+/* V46 — V4 Mission editorial emphasis. Keeps Cecil's existing site typography. */
+.cecil-content-section .mission-specialization-lead {
+  margin: 14px 0 24px;
+  max-width: 990px;
+  font-family: var(--font-display, sans-serif);
+  font-size: clamp(19px, 2vw, 23px);
+  font-weight: 600;
+  line-height: 1.55;
+  color: #cee7f7;
+}
+.cecil-content-inner .mission-copy .cecil-blue-text {
+  color: #6EAFFF;
+}
+@media (max-width: 640px) {
+  .cecil-content-section .mission-specialization-lead {
+    font-size: 18px;
+    line-height: 1.55;
+    margin: 10px 0 23px;
+  }
+}

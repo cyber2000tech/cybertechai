@@ -125,3 +125,26 @@
     margin: 10px 0 23px;
   }
 }
+
+/* V48: Reposition the opening question above the Mission heading; preserve existing font sizes. */
+.cecil-content-section .mission-feature-line--above-heading {
+  margin: 0 0 clamp(22px, 3vw, 42px);
+}
+.cecil-content-section .mission-feature-line--above-heading + h2 {
+  margin-top: 0;
+}
+/* Cecil's new AI safety statement: italic styling with clearly differentiated teal-blue emphasis. */
+.cecil-content-inner .mission-copy > .mission-ai-guardrails {
+  color: #8EE1EC;
+  font-style: italic;
+  padding: 12px 0 12px 22px;
+  border-left: 3px solid #53CFE8;
+  background: linear-gradient(90deg, rgba(34,112,149,.13), transparent 94%);
+}
+.cecil-content-inner .mission-copy .mission-ai-guardrails-accent {
+  color: #8BB7FF;
+  font-weight: 600;
+}
+@media (max-width: 640px) {
+  .cecil-content-inner .mission-copy > .mission-ai-guardrails { padding-left: 14px; }
+}

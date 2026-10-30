@@ -32,3 +32,41 @@
     line-height: 1.23;
   }
 }
+
+
+/* V51: match the lower-right Exchange text visually to the other diagram text.
+   Keep Cecil's original individual PNG files and exact wording. */
+@media (min-width: 901px) {
+  .concept-right-side .concept-text--cloud {
+    max-width: none;
+    width: 128%;
+    transform: translateX(-16%);
+  }
+}
+@media (min-width: 641px) and (max-width: 900px) {
+  .concept-right-side .concept-text--xr { width: 42%; max-width: 42%; }
+  .concept-right-side .concept-text--cloud { width: 56%; max-width: 56%; }
+}
+@media (max-width: 640px) {
+  .concept-right-side .concept-text--xr { width: min(100%, 265px); max-width: 100%; }
+  .concept-right-side .concept-text--cloud { width: min(100%, 330px); max-width: 100%; }
+  .concept-panel .concept-text--models { width: min(100%, 195px); }
+}
+
+/* Cecil requested the AI-safety message after the diagram caption,
+   without the decorative left-hand vertical rule. */
+.cecil-content-inner > .mission-ai-guardrails--closing {
+  max-width: 1010px;
+  margin: clamp(26px, 3vw, 44px) auto 10px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #8ee1ec;
+  font: italic 500 clamp(20px, 2.25vw, 28px)/1.48 Georgia, 'Times New Roman', serif;
+  text-align: center;
+  text-wrap: pretty;
+}
+.cecil-content-inner > .mission-ai-guardrails--closing .mission-ai-guardrails-accent {
+  color: #8bb7ff;
+  font-weight: 700;
+}
